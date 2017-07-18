@@ -1,0 +1,158 @@
+/**
+* schedule section
+**/
+
+// .schedule-bg:before{
+//   content: " ";
+//   display: block;
+//   position: absolute;
+//   left:0;
+//   z-index: 2;
+//   height: 100%;
+//   width: 60%;
+//   -webkit-clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+//   clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+// }
+.schedule{
+  min-height: 500px;
+  float: left;
+  display: inline;
+}
+// .schedule:after{
+//   content: " ";
+//   display: block;
+//   position: absolute;
+//   right:0;
+//   z-index: 2;
+//   height: 400px;
+//   width: 50%;
+// }
+.tab-container{
+  display: inline;
+  float: left;
+}
+.tab>label{
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+  padding: 12px 24px 12px 24px;
+  transform: skewX(25deg);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.tab>label>span{
+  display: block;
+  transform: skewX(-25deg);
+  border: 2px solid transparent;
+}
+.tab>input[type="radio"]:checked~label {
+  background-color: transparent;
+  border: 2px solid orange;
+}
+.tab:first-of-type>input[type="radio"]~label{
+  box-sizing: border-box;
+  margin: 0 0 0 10px;
+  border: 2px solid transparent;
+  border-bottom: 0;
+  padding: 0;
+  border-bottom-right-radius: 10px;
+  overflow: visible;
+}
+.tab:first-of-type>input[type="radio"]:checked~label{
+  box-sizing: border-box;
+  margin: 0 0 0 10px;
+  padding: 0 0 10px 0;
+  border-top: 2px solid orange;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+  border-left: 2px solid transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+  overflow: visible;
+}
+.tab:first-of-type>input[type="radio"]:checked~label>span{
+  box-sizing: border-box;
+  margin: -12px;
+  margin-top: -2px;
+  padding: 13px 24px 13px 24px;
+  border-bottom: 2px solid orange;
+  border-left: 2px solid orange;
+  background-color: transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 50%;
+}
+.tab:first-of-type>input[type="radio"]~label>span{
+  box-sizing: border-box;
+  margin-left: -12px;
+  margin-top: -2px;
+  padding: 13px 24px 13px 24px;
+  border-bottom: 2px solid #bbb;
+  border-left: 2px solid #bbb;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 50%;
+}
+.tab>.table{
+  position: absolute;
+  margin-top: 120px;
+}
+.tab>input, .tab>.table{
+  display: none;
+  height: 0;
+}
+.tab>input:checked~.table{
+  display: block;
+  height: auto;
+  transition: height 1s;
+}
+@media screen and (max-width:450px) {
+  .tab:nth-child(odd)>input[type="radio"]~label{
+      box-sizing: border-box;
+      margin: 0 0 0 10px;
+      border: 2px solid transparent;
+      border-bottom: 0;
+      padding: 0;
+      border-bottom-right-radius: 10px;
+      overflow: visible;
+    }
+    .tab:nth-child(odd)>input[type="radio"]:checked~label{
+      box-sizing: border-box;
+      margin: 0 0 0 10px;
+      padding: 0 0 10px 0;
+      border-top: 2px solid orange;
+      border-right: 2px solid orange;
+      border-bottom: 2px solid orange;
+      border-left: 2px solid transparent;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 10px;
+      overflow: visible;
+    }
+    .tab:nth-child(odd)>input[type="radio"]:checked~label>span{
+      box-sizing: border-box;
+      margin: -12px;
+      margin-top: -2px;
+      padding: 13px 24px 13px 24px;
+      border-bottom: 2px solid orange;
+      border-left: 2px solid orange;
+      background-color: transparent;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 50%;
+    }
+    .tab:nth-child(odd)>input[type="radio"]~label>span{
+      box-sizing: border-box;
+      margin-left: -12px;
+      margin-top: -2px;
+      padding: 13px 24px 13px 24px;
+      border-bottom: 2px solid #bbb;
+      border-left: 2px solid #bbb;
+      background-color: #bbb;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 50%;
+    }
+}

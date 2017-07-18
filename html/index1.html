@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no">
+
+    <title>American football team</title>
+    <!--stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <link rel="icon" type="image/png" href="fav.png" sizes="16x16">
+    <!-- scripts -->
+    <!--[if lt IE 9]>
+      <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+      <script src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js'></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="page-header" id="pageHeader">
+      <div class="container">
+        <div class="row headline">
+          <div class="col-md-3">
+            <h1 class="brand hidden">AMERICAN <br>
+              <span class="small"><span class="orange">FOOTBALL</span> CLUB</span>
+            </h1>
+            <img src="./images/logo.png" alt="" class="logo img-responsive hidden-xs hidden-sm">
+          </div>
+          <div class="col-md-2 pull-right">
+            <div class="social hidden-xs hidden-sm">
+              <a href="#" class="img-circle" alt="facebook">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 310 310"  class="social--top">
+                  <path id="facebook" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+                    c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+                    V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+                    C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+                    c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"/>
+                </svg>
+              </a>
+              <a href="#" class="img-circle" alt="twitter">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 612 612" class="social--top">
+                  <path id="twitter" d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411 c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513 c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101 c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104 c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194 c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485 c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+                </svg>
+              </a>
+              <a href="#" class="img-circle" alt="instagram">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="42px" height="42px" viewBox="0 0 438.536 438.536" class="social--top">
+                  <path id="instagram" d="M421.981,16.562C410.941,5.519,397.711,0,382.298,0H56.248C40.83,0,27.604,5.521,16.561,16.562 C5.52,27.6,0.001,40.828,0.001,56.243V382.29c0,15.413,5.518,28.644,16.56,39.683c11.043,11.04,24.272,16.563,39.687,16.563 h326.046c15.41,0,28.644-5.523,39.684-16.563c11.043-11.039,16.557-24.27,16.557-39.683V56.243C438.534,40.825,433.021,27.604,421.981,16.562z M157.462,158.025c17.224-16.652,37.924-24.982,62.097-24.982 c24.36,0,45.153,8.33,62.381,24.982c17.228,16.655,25.837,36.785,25.837,60.386c0,23.598-8.609,43.729-25.837,60.379 c-17.228,16.659-38.014,24.988-62.381,24.988c-24.172,0-44.87-8.336-62.097-24.988c-17.228-16.652-25.841-36.781-25.841-60.379 C131.621,194.81,140.234,174.681,157.462,158.025z M388.865,370.589c0,4.945-1.718,9.083-5.141,12.416 c-3.433,3.33-7.519,4.996-12.282,4.996h-305.2c-4.948,0-9.091-1.666-12.419-4.996c-3.333-3.326-4.998-7.471-4.998-12.416V185.575 H89.08c-3.805,11.993-5.708,24.462-5.708,37.402c0,36.553,13.322,67.715,39.969,93.511c26.65,25.786,58.721,38.685,96.217,38.685 c24.744,0,47.583-5.903,68.527-17.703c20.937-11.807,37.486-27.839,49.676-48.112c12.183-20.272,18.274-42.4,18.274-66.38 c0-12.94-1.91-25.406-5.715-37.402h38.547v185.014H388.865z M388.865,115.626c0,5.52-1.903,10.184-5.716,13.99 c-3.805,3.809-8.466,5.711-13.989,5.711h-49.676c-5.517,0-10.185-1.903-13.99-5.711c-3.806-3.806-5.708-8.47-5.708-13.99V68.522 c0-5.33,1.902-9.945,5.708-13.848c3.806-3.901,8.474-5.854,13.99-5.854h49.676c5.523,0,10.185,1.952,13.989,5.854 c3.812,3.903,5.716,8.518,5.716,13.848V115.626z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-xs-6">
+              <span class="header__cta dearjoe2 pull-right">Join our club</span>
+            </div>
+            <div class="col-xs-6 tagline-wrapper">
+              <span class="tagline">We are always welcoming <br> of new members</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <nav class="navbar navbar-transparent" role="navigation">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.216 226.216" width="24px" height="24px" class="hamburger">
+                      <g>
+                        <path d="M8.701,43.503h208.814c5.22,0,8.701-3.48,8.701-8.701s-3.48-8.701-8.701-8.701H8.701C3.48,26.102,0,29.582,0,34.802    S3.48,43.503,8.701,43.503z"/>
+                        <path d="m217.515,104.407h-208.814c-5.22,0-8.701,3.48-8.701,8.701s3.48,8.701 8.701,8.701h208.814c5.22,0 8.701-3.48 8.701-8.701s-3.481-8.701-8.701-8.701z"/>
+                        <path d="m217.515,182.713h-208.814c-5.22,0-8.701,3.48-8.701,8.701s3.48,8.701 8.701,8.701h208.814c5.22,0 8.701-3.48 8.701-8.701s-3.481-8.701-8.701-8.701z"/>
+                      </g>
+                  </svg>
+                </button>
+                <a class="navbar-brand hidden-sm hidden-md hidden-lg hidden-xl pull-right" href="#"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="teams.html">Teams and stats</a></li>
+                  <li><a href="gallery.html">Photo/Video</a></li>
+                  <li><a href="blog_posts.html">News/Blog</a></li>
+                  <li><a href="schedule.html">Schedule</a></li>
+                  <li><a href="partners.html">Partners</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- top carousel -->
+    <div class="row" id="topCarousel">
+      <div class="container-fluid">
+        <div id="topCarousel" class="carousel fade-carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators hidden">
+            <li data-target="#topCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#topCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#topCarousel" data-slide-to="2" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item slides">
+              <span class="slide-1"></span>
+              <div class="container hero">
+                <hgroup class="carousel-caption">
+                    <h3>PRACTICE WINNING EVERY DAY</h3>
+                    <h5>A team above all. Abode all a team.</h5>
+                </hgroup>
+                <a class="btn btn-lg btn-hero" href="#" role="button"><span>Sign up today</span></a>
+              </div>
+            </div>
+            <div class="item slides">
+              <span class="slide-2"></span>
+              <div class="container hero">
+                <hgroup class="carousel-caption">
+                  <h3>YUSTLE AND HEART <br> SET US APART</h3>
+                  <h5>Champions are made when the stands are empty.</h5>
+                </hgroup>
+                <a class="btn btn-lg btn-hero" href="#" role="button"><span>Sign up today</span></a>
+              </div>
+            </div>
+            <div class="item slides active">
+              <span class="slide-3"></span>
+              <div class="container hero">
+                <hgroup class="carousel-caption">
+                  <h3>LOOK UP, GET UP <br> BUT NEVER GIVE UP</h3>
+                  <h5>Demend respect, or expect defeat.</h5>
+                </hgroup>
+                <a class="btn btn-lg btn-hero" href="#" role="button"><span>read more</span></a>
+              </div>
+            </div>
+            </div>
+            <a class="left carousel-control" href="#topCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#topCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div class="row white" id="about">
+      <div class="container">
+        <div class="col-xs-12 col-sm-6 about">
+          <hgroup>
+            <h3><span class="orange">About</span> our club</h3>
+            <h5>Demend respect or expect defeat</h5>
+          </hgroup>
+          <p class="text-italic">Founded in 1986, the American Football Club are members of the American Football and Cheerleading Federation. In addition, the American Football Club are members of both the National Federation of Sports and the USA Sports Association.
+          </p>
+          <p class="text-regular">As American Football Club we continually aspire to make our sports program attractive to all types of players, both elite and novice, and both large and small. During recent years, we have made a concerted effort to increase the access of our programs, especially in our youth program where we believe we are uniquely equipped to offer athletic activities and organizational support that alternative sports cannot provide. </p>
+          <a class="btn btn-lg btn-hero-border" href="#" role="button"><span>Club history</span></a>
+        </div>
+        <div class="col-xs-12 col-sm-6 committee">
+          <h3> <span class="orange"> Commettee</span></h3>
+          <table class="table table-responsive">
+            <tr>
+              <td>President</td>
+              <td>Reinaldo Rivas</td>
+            </tr>
+            <tr>
+              <td>Vice-president</td>
+              <td>Joe Rice</td>
+            </tr>
+            <tr>
+              <td>Treasurer</td>
+              <td>Luis Griffit</td>
+            </tr>
+            <tr>
+              <td>Social secretaries</td>
+              <td>Thomas Roy and Scott Ellis</td>
+            </tr>
+            <tr>
+              <td>Equipment manager</td>
+              <td>William Gregg</td>
+            </tr>
+            <tr>
+              <td>Development team</td>
+              <td>Donald Davis, Paul Bristow and Aaron Watson</td>
+            </tr>
+            <tr>
+              <td>Fitness and nutrition secretary</td>
+              <td>Kenneth Lauterbach</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- teams -->
+    <div class="row" id="teams">
+      <div class="container-fluid teams-wrapper">
+        <hgroup>
+          <h3 class="text-center"><span class="orange">Our</span> teams</h3>
+          <h5 class="text-center">Some teams play football, we live it!</h5>
+        </hgroup>
+        <!-- carousel for xs screens -->
+        <div class="col-xs-12 visible-xs teams-xs-wrapper">
+          <div id="teamsCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#teamsCarousel" data-slide-to="0" class=""></li>
+              <li data-target="#teamsCarousel" data-slide-to="1" class=""></li>
+              <li data-target="#teamsCarousel" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item premiers team">
+                <img data-src="#" alt="First slide" src="">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h3>Premiers</h3>
+                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="item colts team">
+                <img data-src="" alt="Second slide" src="">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h3>Colts</h3>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item active juniors team">
+                <img data-src="#" alt="Third slide" src="">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h3>Juniors</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#teamsCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#teamsCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+        <!-- end carousel -->
+        <!-- 3 columns -->
+        <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs">
+          <div class="team premiers container-fluid">
+            <div class="team-label">
+              <svg version="1.1"
+                        id="cup"
+                     xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+                         x="0px"
+                         y="0px"
+              	   viewBox="0 0 462.999 462.999"
+                     style="enable-background:new 0 0 462.999 462.999;"
+                 xml:space="preserve">
+              <g>
+              	<path d="M415.5,64H359V45.766c9.29-3.138,16-11.93,16-22.266C375,10.542,364.458,0,351.5,0h-240C98.542,0,88,10.542,88,23.5
+              		c0,10.336,6.71,19.128,16,22.266V64H47.5C34.542,64,24,74.542,24,87.5v47.999c0,56.56,45.605,102.661,101.974,103.481
+              		c15.322,22.547,37.674,39.945,63.878,49.027c-3.638,4.14-5.852,9.561-5.852,15.492c0,9.821,6.058,18.25,14.632,21.757
+              		c-9.008,8.65-14.632,20.798-14.632,34.243c0,13.781,5.794,26.519,16,35.534v4.466c0,9.098-7.402,16.5-16.5,16.5
+              		c-17.369,0-31.5,14.131-31.5,31.5v8c0,4.143,3.358,7.5,7.5,7.5h144c4.142,0,7.5-3.357,7.5-7.5v-8c0-17.369-14.131-31.5-31.5-31.5
+              		c-9.098,0-16.5-7.402-16.5-16.5v-4.465c10.205-9.015,16-21.755,16-35.535c0-13.445-5.624-25.593-14.632-34.243
+              		C272.941,321.749,279,313.32,279,303.499c0-5.931-2.213-11.352-5.852-15.492c26.204-9.082,48.556-26.48,63.878-49.027
+              		C393.395,238.16,439,192.059,439,135.499V87.5C439,74.542,428.458,64,415.5,64z M111.5,15h240c4.687,0,8.5,3.813,8.5,8.5
+              		s-3.813,8.5-8.5,8.5h-240c-4.687,0-8.5-3.813-8.5-8.5S106.813,15,111.5,15z M39,135.499V87.5c0-4.687,3.813-8.5,8.5-8.5H104v88.499
+              		c0,20.026,4.646,38.984,12.909,55.864C73.084,218.112,39,180.714,39,135.499z M279.5,430.999c9.098,0,16.5,7.402,16.5,16.5v0.5H167
+              		v-0.5c0-9.098,7.402-16.5,16.5-16.5c17.369,0,31.5-14.131,31.5-31.5v-0.5h33v0.5C248,416.868,262.13,430.999,279.5,430.999z
+              		 M252.844,383.999h-42.688c-7.115-6.181-11.156-14.979-11.156-24.5c0-17.921,14.58-32.5,32.5-32.5s32.5,14.579,32.5,32.5
+              		C264,369.019,259.958,377.818,252.844,383.999z M255.5,294.999c4.687,0,8.5,3.813,8.5,8.5s-3.813,8.5-8.5,8.5h-48
+              		c-4.687,0-8.5-3.813-8.5-8.5s3.813-8.5,8.5-8.5H255.5z M231.5,279.999c-62.033,0-112.5-50.468-112.5-112.5V47h225v120.499
+              		C344,229.531,293.532,279.999,231.5,279.999z M424,135.499c0,45.215-34.085,82.613-77.909,87.864
+              		c8.262-16.88,12.909-35.838,12.909-55.864V79h56.5c4.687,0,8.5,3.813,8.5,8.5V135.499z"/>
+              	<path d="M319.5,111.999c-4.142,0-7.5,3.357-7.5,7.5v48c0,24.047-10.671,46.665-29.278,62.054c-3.192,2.64-3.64,7.367-1,10.56
+              		c1.483,1.793,3.625,2.72,5.784,2.72c1.683,0,3.377-0.563,4.775-1.721C314.345,222.863,327,196.032,327,167.499v-48
+              		C327,115.356,323.642,111.999,319.5,111.999z"/>
+              	<path d="M319.5,64c-4.142,0-7.5,3.357-7.5,7.5v16c0,4.143,3.358,7.5,7.5,7.5s7.5-3.357,7.5-7.5v-16C327,67.357,323.642,64,319.5,64
+              		z"/>
+              </g>
+              </svg>
+            </div>
+            <h4>Premiers</h4>
+            <span>We have a senior mens club enters into in the Senior competition of the competition.</span>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs">
+          <div class="team colts  container-fluid">
+            <div class="team-label">
+              <svg version="1.1"
+                        id="helmet"
+                     xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+                         x="0px"
+                         y="0px"
+              	   viewBox="0 0 463.002 463.002"
+                     style="enable-background:new 0 0 463.002 463.002;"
+                 xml:space="preserve">
+                <g>
+                	<path d="M463.002,279.502c0-4.142-3.358-7.5-7.5-7.5h-168.5v-40.373l106.785-38.168c8.284-2.961,15.011-9.31,18.454-17.417
+                		c3.42-8.053,3.325-17.225-0.262-25.166c-18.125-40.125-47.681-73.362-85.472-96.12c-39.019-23.497-83.912-33.855-129.826-29.956
+                		C144.947,29.197,96.393,52.626,59.963,90.774c-36.4,38.116-57.627,87.7-59.772,139.617
+                		c-2.446,59.213,18.747,115.343,59.684,158.091c1.858,2.118,4.782,3.039,7.561,2.299c33.721-8.959,50.97-0.632,72.81,9.913
+                		c2.869,1.385,5.835,2.818,8.911,4.247c8.453,3.928,17.471,5.872,26.46,5.872c11.804,0,23.561-3.352,33.926-9.965
+                		c18.446-11.769,29.459-31.835,29.459-53.678v-12.168h33v40.5c0,35.014,28.486,63.5,63.5,63.5h83.41
+                		c15.659,0,28.753-11.233,31.134-26.71l12.869-83.651c0.005-0.035,0.003-0.072,0.008-0.107c0.047-0.338,0.079-0.681,0.079-1.032
+                		c0,0,0,0,0-0.001l0,0V279.502z M448.002,287.002v33h-161v-33H448.002z M272.002,272.002h-30.495
+                		c4.695-15.215,15.707-28.014,30.495-34.784V272.002z M398.434,170.181c-1.837,4.326-5.281,7.577-9.696,9.155l-117.302,41.927
+                		c-23.041,8.236-39.942,27.619-45.48,50.739h-42.595c2.743-27.264,20.92-51.162,46.952-60.803l164.821-60.838
+                		c1.096,2.208,2.155,4.438,3.173,6.693C400.203,161.249,400.248,165.911,398.434,170.181z M224.002,320.002h-32.5
+                		c-4.687,0-8.5-3.813-8.5-8.5v-24.5h41.031c-0.011,0.519-0.031,1.036-0.031,1.556V320.002z M15.178,231.011
+                		c1.994-48.273,21.752-94.398,55.633-129.877c33.902-35.5,79.054-57.3,127.139-61.385c42.743-3.63,84.523,6.003,120.818,27.859
+                		c28.675,17.268,52.252,41.019,69.124,69.437l-162.78,60.084c-34.159,12.652-57.11,45.626-57.11,82.053v0.319v32
+                		c0,12.958,10.542,23.5,23.5,23.5h0.5v12.168c0,10.3-8.52,16.676-16.414,16.676c-2.215,0-4.445-0.514-6.627-1.528
+                		c-2.765-1.285-5.479-2.595-8.103-3.862l-0.179-0.086c-17.885-8.635-38.156-18.423-66.803-18.423
+                		c-5.681,0-11.554,0.395-17.462,1.173c-0.695,0.092-15.255,2.094-28.085,9.084C25.036,315.255,13.401,274.008,15.178,231.011z
+                		 M224.002,347.17c0,16.693-8.421,32.033-22.527,41.032c-13.918,8.879-31.112,10.053-45.997,3.136
+                		c-2.975-1.382-5.891-2.79-8.711-4.151c-16.057-7.752-31.479-15.2-52.997-15.2c-7.713,0-16.215,0.958-25.803,3.202
+                		c-3.785-4.109-7.368-8.352-10.767-12.704c9.897-4.917,21.061-6.479,21.18-6.495c5.255-0.692,10.469-1.043,15.497-1.043
+                		c25.215,0,43.844,8.995,60.28,16.931l0.178,0.086c2.674,1.292,5.439,2.627,8.306,3.958c4.176,1.94,8.532,2.924,12.947,2.924
+                		c15.107,0,31.414-12.11,31.414-31.676v-12.168h17V347.17z M239.002,320.002v-31.444c0-0.521,0.016-1.038,0.031-1.556h32.969v33
+                		H239.002z M446.76,335.002l-5.077,33H287.002v-33H446.76z M418.912,424.002h-83.41c-24.193,0-44.302-17.806-47.918-41h151.791
+                		l-4.155,27.009C433.973,418.118,427.114,424.002,418.912,424.002z"/>
+                	<path d="M345.477,132.282c1.483,1.793,3.625,2.719,5.783,2.719c1.684,0,3.378-0.564,4.776-1.721
+                		c3.191-2.64,3.638-7.368,0.998-10.56c-5.066-6.124-10.587-11.976-16.411-17.395c-3.031-2.82-7.777-2.651-10.6,0.382
+                		c-2.822,3.032-2.651,7.778,0.382,10.6C335.754,121.284,340.825,126.658,345.477,132.282z"/>
+                	<path d="M215.502,71.002c32.646,0,64.426,9.454,91.906,27.339c1.263,0.822,2.682,1.215,4.084,1.215c2.452,0,4.855-1.202,6.292-3.41
+                		c2.26-3.472,1.277-8.118-2.194-10.377c-29.92-19.474-64.531-29.768-100.088-29.768c-4.142,0-7.5,3.358-7.5,7.5
+                		S211.36,71.002,215.502,71.002z"/>
+                	<path d="M107.502,319.002c19.575,0,35.5-15.925,35.5-35.5s-15.925-35.5-35.5-35.5s-35.5,15.925-35.5,35.5
+                		S87.927,319.002,107.502,319.002z M107.502,263.002c11.304,0,20.5,9.196,20.5,20.5s-9.196,20.5-20.5,20.5s-20.5-9.196-20.5-20.5
+                		S96.198,263.002,107.502,263.002z"/>
+                </g>
+              </svg>
+            </div>
+            <h4>Colts</h4>
+            <span>We are looking for players from all sporting backgrounds and sizes!</span>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs">
+          <div class="team juniors container-fluid">
+
+            <div class="team-label">
+              <svg version="1.1"
+                        id="tshirt"
+                     xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+                         x="0px"
+                         y="0px"
+              	   viewBox="0 0 463 463"
+                     style="enable-background:new 0 0 463 463;"
+                 xml:space="preserve">
+                <g>
+                	<path d="M439.36,127.737c-0.583-0.343-1.181-0.644-1.79-0.906l-27.24-85.888c-3.021-9.611-10.532-17.25-20.089-20.436
+                		L332.334,1.206c-2.4-0.8-4.9-1.206-7.431-1.206h-21.851c-7.915,0-14.533,5.908-15.393,13.742C284.516,42.394,260.372,64,231.5,64
+                		s-53.016-21.606-56.16-50.258C174.48,5.908,167.862,0,159.947,0h-21.851c-2.53,0-5.03,0.406-7.432,1.206L72.759,20.508
+                		c-9.558,3.186-17.068,10.825-20.085,20.419l-27.245,85.905c-0.609,0.261-1.207,0.562-1.79,0.906
+                		c-4.784,2.814-7.64,7.809-7.64,13.359v13.697c0,5.625,3.055,10.817,7.973,13.549L88,203.913V415.5c0,5.827,3.235,10.908,8,13.555
+                		V447.5c0,8.547,6.953,15.5,15.5,15.5h240c8.547,0,15.5-6.953,15.5-15.5v-18.445c4.765-2.647,8-7.728,8-13.555V203.913
+                		l64.027-35.571c4.918-2.732,7.973-7.924,7.973-13.549v-13.697C447,135.546,444.145,130.552,439.36,127.737z M422.347,128.45
+                		L375,154.754v-32.767c0-6.027,1.105-11.931,3.286-17.548l20.057-51.675L422.347,128.45z M160.43,15.378
+                		C164.41,51.648,194.964,79,231.5,79s67.09-27.352,71.07-63.622C302.594,15.17,302.81,15,303.053,15h16.62
+                		c-1.775,21.208-11.031,40.896-26.407,55.882C276.646,87.08,254.712,96,231.5,96c-23.318,0-45.327-8.992-61.971-25.318
+                		C154.265,55.708,145.1,36.108,143.334,15h16.613C160.19,15,160.406,15.17,160.43,15.378z M128.504,17.738
+                		c2.36,24.129,13.024,46.488,30.522,63.653C178.49,100.484,204.229,111,231.5,111c27.146,0,52.799-10.433,72.235-29.376
+                		c17.625-17.179,28.389-39.64,30.763-63.885l51,17c1.121,0.374,2.178,0.88,3.177,1.474L364.302,99.01
+                		c-2.854,7.354-4.302,15.085-4.302,22.976V167.5v32V368H103V199.5v-32v-45.514c0-7.891-1.447-15.622-4.302-22.976L74.324,36.212
+                		c0.999-0.593,2.056-1.1,3.177-1.473L128.504,17.738z M360,415.5c0,0.276-0.225,0.5-0.5,0.5h-256c-0.275,0-0.5-0.224-0.5-0.5V383
+                		h257V415.5z M64.657,52.761l20.057,51.677C86.895,110.055,88,115.959,88,121.986v32.767L40.653,128.45L64.657,52.761z
+                		 M31.258,155.23c-0.159-0.088-0.258-0.256-0.258-0.437v-13.697c0-0.114,0-0.286,0.246-0.431c0.102-0.06,0.188-0.081,0.26-0.081
+                		c0.103,0,0.178,0.042,0.236,0.075L88,171.913v14.84L31.258,155.23z M351.5,448h-240c-0.275,0-0.5-0.224-0.5-0.5V431h241v16.5
+                		C352,447.776,351.775,448,351.5,448z M432,154.793c0,0.181-0.099,0.349-0.258,0.437L375,186.753v-14.84l56.258-31.254
+                		c0.1-0.056,0.25-0.138,0.496,0.006C432,140.81,432,140.982,432,141.096V154.793z"/>
+                	<path d="M173.128,206.615c3.929,1.308,8.177-0.814,9.487-4.744l6.29-18.872H192v105h-8.5c-4.143,0-7.5,3.358-7.5,7.5
+                		s3.357,7.5,7.5,7.5h32c4.143,0,7.5-3.358,7.5-7.5s-3.357-7.5-7.5-7.5H207V175.5c0-4.142-3.357-7.5-7.5-7.5h-16
+                		c-3.229,0-6.095,2.066-7.115,5.128l-8,24C167.075,201.058,169.199,205.305,173.128,206.615z"/>
+                	<path d="M262.5,303h2c16.817,0,30.5-13.682,30.5-30.5v-74c0-16.818-13.683-30.5-30.5-30.5h-2c-16.817,0-30.5,13.682-30.5,30.5v74
+                		C232,289.318,245.683,303,262.5,303z M247,198.5c0-8.547,6.953-15.5,15.5-15.5h2c8.547,0,15.5,6.953,15.5,15.5v74
+                		c0,8.547-6.953,15.5-15.5,15.5h-2c-8.547,0-15.5-6.953-15.5-15.5V198.5z"/>
+                </g>
+              </svg>
+            </div>
+            <h4>Junior</h4>
+            <span>If you are interested in trying out this exciting sport, please get in touch with us.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- schedule -->
+    <div class="row schedule-bg" id="schedule">
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 schedule">
+          <h3>Schedule</h3>
+          <div class="tab_container">
+            <div class="tab tab1">
+              <input id="scheduleTab1" type="radio" name="tabs" checked>
+              <label for="scheduleTab1">
+                <span>2017 Premiers</span>
+              </label>
+              <table class="table table-responsive table-striped table-hover">
+                <thead>
+                  <tr>
+                    <td>Date</td>
+                    <td>Venue</td>
+                    <td>Opponent</td>
+                    <td>Competition</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>30 Apr,16:00</td>
+                    <td>A</td>
+                    <td>Trolling Crabtree</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>07 May,14:00</td>
+                    <td>H</td>
+                    <td>Pitch a Trent</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>16 May,19:00</td>
+                    <td>A</td>
+                    <td>You Kaepernick Future</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>27 May,14:00</td>
+                    <td>H</td>
+                    <td>The walking Dez</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>03 Jun,14:00</td>
+                    <td>A</td>
+                    <td>Stairway to Evans</td>
+                    <td>2017</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab tab2">
+              <input id="scheduleTab2" type="radio" name="tabs">
+              <label for="scheduleTab2">
+                <span>2017 Colts</span>
+              </label>
+              <table class="table table-responsive table-striped">
+                <thead>
+                  <tr>
+                    <td>Date</td>
+                    <td>Venue</td>
+                    <td>Opponent</td>
+                    <td>Competition</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>30 Apr,14:00</td>
+                    <td>A</td>
+                    <td>Pitch a Trent</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>07 May,16:00</td>
+                    <td>H</td>
+                    <td>The walking Dez</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>16 May,19:00</td>
+                    <td>A</td>
+                    <td>You Kaepernick Future</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>27 May,14:00</td>
+                    <td>H</td>
+                    <td>The walking Dez</td>
+                    <td>2017</td>
+                  </tr>
+                  <tr>
+                    <td>03 Jun,19:00</td>
+                    <td>A</td>
+                    <td>Stairway to Evans</td>
+                    <td>2017</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab tab3">
+                <input id="scheduleTab3" type="radio" name="tabs">
+                <label for="scheduleTab3">
+                  <span>2017 Juniors</span>
+                </label>
+                <table class="table table-responsive table-striped">
+                  <thead>
+                    <tr>
+                      <td>Date</td>
+                      <td>Venue</td>
+                      <td>Opponent</td>
+                      <td>Competition</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>30 Apr,16:00</td>
+                      <td>A</td>
+                      <td>You Kaepernick Future</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>07 May,14:00</td>
+                      <td>H</td>
+                      <td>Pitch a Trent</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>16 May,19:00</td>
+                      <td>A</td>
+                      <td>You Kaepernick Future</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>27 May,14:00</td>
+                      <td>H</td>
+                      <td>The walking Dez</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>03 Jun,14:00</td>
+                      <td>A</td>
+                      <td>Stairway to Evans</td>
+                      <td>2017</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- couches -->
+    <div class="row" id="coaches">
+      <div class="container-fluid coaches-bg">
+        <div class="row">
+          <div class="container">
+            <h3 class="text-center"><span class="orange">Our</span> coaches</h3>
+            <h5 class="text-center">Practice doesn`t make perfect, perfect practice make perfect.</h5>
+            <div class="carousel carousel-showmanymoveone slide" id="carouselCouches">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="images/coach1.png" class="img-responsive center-block">
+                    <h4 class="couch-name text-center">
+                      <span class="uppercase">Sammy Mcdonnel</span><br>
+                      <span class="orange">Coach & Offensive Coordinator</span>
+                    </h4>
+                    <p class="text-center">The 2017 season will be Sammy` first season with us. He has been coaching for 20 years.</p>
+                    <a class="btn btn-lg btn-hero btn-center" href="#" role="button"><span>Know more</span></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="images/coach2.png" class="img-responsive center-block">
+                    <h4 class="couch-name text-center">
+                      <span class="uppercase">James Frazier</span><br>
+                      <span class="orange">Defensive Coordinator</span>
+                    </h4>
+                    <p class="text-center">James has been with us for a number of years, but this season sees his return to kitted <coaching class=""></coaching></p>
+                    <a class="btn btn-lg btn-hero btn-center" href="#" role="button"><span>Know more</span></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="images/coach3.png" class="img-responsive center-block">
+                  <h4 class="couch-name text-center">
+                    <span class="uppercase">Elmer Ferguson</span><br>
+                    <span class="orange">Special teams coordinator</span>
+                  </h4>
+                  <p class="text-center">Having previously played a variety of positions, Coach Elmer found a niche in Special Teams</p>
+                  <a class="btn btn-lg btn-hero btn-center" href="#" role="button"><span>Know more</span></a>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control carouselCouches-control" href="#carouselCouches" data-slide="prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+              </a>
+              <a class="right carousel-control carouselCouches-control" href="#carouselCouches" data-slide="next">
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- recent news -->
+    <div class="row white" id="news">
+      <div class="container">
+        <h3 class="text-center"><span class="orange">Recent</span> News</h3>
+        <div class="carousel carousel-showmanymoveone slide" id="carouselNews">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#">
+                  <img src="images/news1.png" alt="" class="img img-responsive">
+                  <div class="news-label">Jan 6, 2017</div>
+                  <span>Compensatory pick protection for the Dolphins</span>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#">
+                  <img src="images/news2.png" alt="">
+                  <div class="news-label">Jan 6, 2017</div>
+                  <span>Fast fantasy facts on the running back of 2016</span>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#">
+                  <img src="images/news3.png" alt="">
+                  <div class="news-label">Jan 6, 2017</div>
+                  <span>Biggest liability for every remaining playoff team</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control carouselNews-control" href="#carouselNews" data-slide="prev">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+          </a>
+          <a class="right carousel-control carouselNews-control" href="#carouselNews" data-slide="next">
+            <i class="glyphicon glyphicon-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- gallery
+    <div class="row white" id="gallery" >
+      <div class="container-fluid">
+        <div class="col-xs-12 col-ms-12 col-md-12 col-lg-12">
+          <h3 class="text-center"><span class="orange">Our Club </span>Gallery</h3>
+          <h5 class="text-center">Victory begins in the Heart</h5>
+        </div>
+        <div class="tab_container col-xs-12 col-ms-12 col-md-12 col-lg-12">
+          <div class="tab-labels container-flex">
+            <button type="button" name="all" data-filter="all" class="btn btn-hero filter-button"><span>All photos</span></button>
+            <button type="button" name="2014" data-filter="2014" class="btn btn-hero filter-button"><span>2014 Gallery</span></button>
+            <button type="button" name="2015" data-filter="2015" class="btn btn-hero filter-button"><span>2015 Gallery</span></button>
+            <button type="button" name="2016" data-filter="2016" class="btn btn-hero filter-button"><span>2016 Gallery</span></button>
+            <button type="button" name="2017" data-filter="2017" class="btn btn-hero filter-button"><span>2017 Gallery</span></button>
+          </div>
+          <div class="tab-content" id="galleryContent">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery1.jpg" alt="gallery image" class="img img-responsive 2014">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery2.jpg" alt="gallery image" class="img img-responsive 2014">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery3.jpg" alt="gallery image" class="img img-responsive 2014">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery4.jpg" alt="gallery image" class="img img-responsive 2014">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery5.jpg" alt="gallery image" class="img img-responsive 2014">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery6.jpg" alt="gallery image" class="img img-responsive 2014">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery7.jpg" alt="gallery image" class="img img-responsive 2015">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery8.jpg" alt="gallery image" class="img img-responsive 2015">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery9.jpg" alt="gallery image" class="img img-responsive 2015">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery10.jpg" alt="gallery image" class="img img-responsive 2015">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery11.jpg" alt="gallery image" class="img img-responsive 2015">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <img src="images/gallery/gallery12.jpg" alt="gallery image" class="img img-responsive 2015">
+            </div>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container-flex">
+              <a class="btn btn-lg btn-hero " href="#" role="button"><span>view all gallery</span></a>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <footer>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 footer__map  margin-bottom">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d712.7849972509375!2d-69.30229251597426!3d44.389247993702085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1492426909026" frameborder="0" style="border:0"></iframe>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 footer__overflow">
+          <span class="logo img-responsive margin-bottom"></span>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 margin-bottom">
+              <span class="orange text-block">American football club</span>
+              <span class="address text-block">154 Bloomfield Way, Liberty, ME 04949</span>
+              <span class="text-block"><a href="mailto:info@yourmail.com" class="email">info@yourmail.com</a></span>
+            </div>
+            <div class="col-xs-12  col-sm-6 col-md-6 margin-bottom">
+              <span class="text-block">Call us:</span>
+              <span class="lead tel"><a href="tel:1-800-1234567" class="tel">1-800-1234567</a><span>
+            </div>
+          </div>
+          <div class="copyright margin-bottom">
+            <span>&copy; 2017 |
+              <a href="#" class="policy">Private policy</a>
+            </span>
+
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+    <!--scripts-->
+    <!-- bower:js -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- cdn -->
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- fallbacks -->
+    <!-- <script type="text/javascript">window.jQuery || document.write("<script src='.\/lib\/jquery\/dist\/js\/jquery.min.js'><\/script>");</script> -->
+    <!-- <script type="text/javascript">$.fn.modal || document.write('<script src=".\/lib\/bootstrap\/dist\/js\/bootstrap.min.js"><\/script>');</script> -->
+    <!-- <script type="text/javascript">
+      function addScript(a){var b=document.createElement("script");b.type="text/javascript",b.charset="utf-8",b.src=a,b.async=!1,b.defer=!1,document.getElementsByTagName("body")[0].appendChild(b)}
+      function addStyle(a){var b=document.createElement("link");b.type="text/css",b.rel="stylesheet",b.href=a,b.charset="utf-8",document.getElementsByTagName("head")[0].appendChild(b)};
+
+      (function bsCssFallback () {
+        var bs = document.createElement("span");bs.classList += "lead hidden";
+        document.getElementsByTagName("body")[0].appendChild(bs);
+        if ("300" !== bs.style.fontWeight){
+          addStyle('.\/lib\/bootstrap\/dist\/css\/bootstrap.min.css');
+        }
+        bs.remove();
+      })();
+
+      window.jQuery || addScript('.\/lib\/jquery\/dist\/jquery.min.js');
+
+      $.fn.modal || document.write('<script src=".\/lib\/bootstrap\/dist\/js\/bootstrap.min.js"><\/script>');
+    </script> -->
+    <script src="./js/main.js" charset="utf-8"></script>
+  </body>
+</html>

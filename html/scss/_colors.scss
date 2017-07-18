@@ -1,0 +1,106 @@
+$dark:#2A2A2A;
+$orange:#FF7E00;
+
+body, footer{
+  background-color: $dark;
+  color: #fff;
+}
+.dearjoe2, .orange{
+  color:$orange;
+}
+.tagline{
+  color: #ffffff;
+}
+.img-circle{
+  border: 2px solid $orange;
+}
+.social--top, .hamburger{
+  fill: #fff;
+  &:hover{
+    fill: $orange;
+  }
+}
+.navbar-nav{
+  background: rgba(0,0,0,0.2);
+}
+.navbar-nav>li>a{
+  color: #fff;
+}
+.navbar-nav>li.active>a{
+  color: $orange;
+}
+.navbar-nav>li:hover, .navbar-nav>li:active, .navbar-nav>li:focus{
+  display: block;
+  background: rgba(0,0,0,0.3);
+  -webkit-box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.2),
+              -5px 0px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.2),
+              -5px 0px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.2),
+              -5px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.navbar-nav>li:hover>a, .navbar-nav>li:active>a, .navbar-nav>li:focus>a{
+  color: $orange;
+  background-color: transparent;
+}
+//===================================================================topCarousel
+.white{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #fff;
+    background-color: $orange;
+    border-color: $orange;
+}
+.fade-carousel>.carousel-inner>.slides>.slide-1:after,
+.fade-carousel>.carousel-inner>.slides>.slide-2:after,
+.fade-carousel>.carousel-inner>.slides>.slide-3:after{
+  background-color: $dark;
+  opacity: 0.5;
+}
+.hero{
+  color: #fff;
+}
+//========================================================================about
+.btn.btn-hero-border{
+  color: black;
+  background-color: transparent;
+  border: 2px solid $orange;
+}
+//======================================================================schedule
+.schedule-bg{
+  background-color: white;
+}
+@media screen and (min-width:992px) {
+  .schedule-bg{
+    background: #fff;
+    background-image: url(../images/schedule-bg.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+  }
+}
+.schedule-bg:before{
+  background-color: #fff;
+}
+.schedule{
+  background-color: #fff;
+  color: #000;
+}
+.tab>label, .tab:first-of-type>input[type="radio"]~label>span{
+  background-color: #aaa;
+}
+thead{
+  color: $orange;
+}
+//========================================================================footer
+.email, .tel, .policy{
+  color: #fff;
+}
+.footer__map:after{
+  background-color: $dark;
+}

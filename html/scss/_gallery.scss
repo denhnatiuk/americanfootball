@@ -1,0 +1,21 @@
+.container-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.input-group>label{
+  margin-left: 10px;
+}
+#gallery .tab-content {
+  & img{
+    width:100%;
+    height: 200px;
+  }
+  & div{
+    padding: 0;
+  }
+}

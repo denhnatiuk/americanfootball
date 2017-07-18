@@ -1,0 +1,41 @@
+/**
+* Teams section
+**/
+.teams-xs-wrapper{
+  padding: 0;
+}
+.teams-wrapper>div{
+  padding: 0;
+}
+.team{
+  vertical-align: bottom;
+  width: 100%;
+  height: 650px;
+  padding: 0;
+  padding-top: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.premiers{
+  background-image: url(../images/premier.jpg);
+}
+.colts{
+  background-image: url(../images/colts.jpg);
+}
+.juniors{
+  background-image: url(../images/juniors.jpg);
+}
+.team-label{
+  background-image: url(../images/team-label.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30%;
+  padding: 40px;
+  // height: 250px;
+  float: left;
+}
+.team-label>svg {
+
+}

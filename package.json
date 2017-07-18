@@ -1,0 +1,30 @@
+{
+  "name": "americanfootball",
+  "version": "0.0.1",
+  "description": "american football team template",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "dist": "gulp --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DenysHnatiuk/americanfootball"
+  },
+  "author": "Den Hnatiuk <denys.hnatiuk@gmail.com>",
+  "license": "SEE LICENSE in LICENSE.txt",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.12",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-postcss": "^6.4.0",
+    "gulp-sass": "^3.1.0",
+    "wiredep": "^4.0.0"
+  }
+}
