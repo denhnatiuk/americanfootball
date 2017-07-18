@@ -1,0 +1,39 @@
+@import "fonts";
+@import "colors";
+@import "header";
+@import "fade-carousel";
+@import "about";
+@import "teams";
+@import "schedule";
+@import "couches";
+@import "news";
+@import "gallery";
+@import "partners";
+@import "keepup";
+@import "footer";
+
+
+.btn.btn-hero-border,
+.btn.btn-hero-border:hover,
+.btn.btn-hero-border:focus {
+    outline: none;
+    padding: 20px 40px;
+    transform: skewX(25deg);
+    border-radius: 10px;
+}
+.btn.btn-hero-border>span,
+.btn.btn-hero-border:hover>span,
+.btn.btn-hero-border:focus>span,{
+  display: block;
+  text-align: center;
+  transform: skewX(-25deg);
+}
+.btn-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.uppercase{
+  text-transform: uppercase;
+}

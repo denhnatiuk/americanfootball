@@ -1,0 +1,106 @@
+#topCarousel{
+  // width: 100%;
+}
+.fade-carousel {
+    position: relative;
+    height: 90vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 90vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+.hero {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    z-index: 5;
+    opacity: 1;
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+
+}
+.hero h3 {
+    margin: 0;
+    padding: 0;
+}
+.hero>.carousel-caption{
+  margin-bottom: 3rem;
+}
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    outline: none;
+    padding: 20px 40px;
+    transform: skewX(25deg);
+    border-radius: 10px;
+}
+.btn.btn-hero>span,
+.btn.btn-hero:hover>span,
+.btn.btn-hero:focus>span,{
+  display: block;
+  transform: skewX(-25deg);
+}
+.fade-carousel>.carousel-inner>.slides>.slide-1,
+.fade-carousel>.carousel-inner>.slides>.slide-2,
+.fade-carousel>.carousel-inner>.slides>.slide-3 {
+  display: block;
+  z-index: 1;
+  height: 90vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel>.carousel-inner>.slides>.slide-1 {
+  background-image: url(../images/top-carousel-1.jpeg);
+}
+.fade-carousel>.carousel-inner>.slides>.slide-2 {
+  background-image: url(../images/top-carousel-2.jpg);
+}
+.fade-carousel>.carousel-inner>.slides>.slide-3 {
+  background-image: url(../images/top-carousel-3.jpg);
+}
+.fade-carousel>.carousel-inner>.slides>.slide-1:after,
+.fade-carousel>.carousel-inner>.slides>.slide-2:after,
+.fade-carousel>.carousel-inner>.slides>.slide-3:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+@media screen and (max-width:768px) {
+  #topCarousel{
+    margin-top: 10vh;
+  }
+}
