@@ -1,6 +1,6 @@
 {
   "name": "americanfootball",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "american football team template",
   "main": "index.js",
   "directories": {
@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
     "dist": "gulp --production"
+    ,"gh-pages":"git subtree push --prefix html origin gh-pages"
   },
   "repository": {
     "type": "git",
